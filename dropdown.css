@@ -1,0 +1,32 @@
+.navbutton{
+    background-color: lawngreen;
+    display: inline-block;
+    padding: 11px 25px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+}
+
+.dropdown-box{
+    display: none;
+    position: absolute;
+    padding-top: 35px;
+}
+
+.navbutton:hover .dropdown-box{
+    display: inline-block;
+    
+}
+
+.dropdown-box .dropdowns{
+    background-color: cadetblue;
+    padding: 11px 35px; 
+    margin-left: -90px;  
+    /* margin-top: 30px; */
+    width: 100px;
+}
+
+.dropdown-box .dropdowns:hover{
+    background-color: magenta;
+    transition-duration: 500ms;
+}

@@ -1,0 +1,243 @@
+html{
+  background-image: linear-gradient(#fc5e55, #fa4083);
+
+}
+
+body {
+  background-image: url(ASSETS/images/image-lion-background.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  font-size: 0.95rem;
+
+}
+
+.container {
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #cccc;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.main2{
+  padding-top: 50px;
+  min-height: 300px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card1 {
+  width: 30%;
+  background-image: url(ASSETS/images/image-background-card1.jpg);
+  min-height: 250px;
+  background-size: cover;
+  background-position: bottom;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.377);
+}
+
+.card2 {
+  width: 30%;
+  background-image: url(ASSETS/images/image-background-card2.jpg);
+  min-height: 250px;
+  background-size: cover;
+  background-position: bottom;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.377);
+}
+
+.card3 {
+  width: 30%;
+  background-image: url(ASSETS/images/image-background-card3.jpg);
+  min-height: 250px;
+  background-size: cover;
+  background-position: bottom;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.377);
+}
+
+.herobox1 {
+  flex: 2;
+}
+
+.herobox2 {
+  flex: 1;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 3.25rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.473);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  line-height: 1.75rem;
+}
+
+.cards p {
+  line-height: 20px;
+  margin: 12px 30px 30px 12px;
+}
+
+.cards i {
+  font-size: 80px;
+  margin-top: 20px;
+}
+
+.mybutton {
+  background-color: white;
+  color: #fa4083;
+  padding: 11px 25px 11px 25px;
+  display: inline-block;
+  margin-top: 15px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  border-radius: 2px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.473);
+}
+
+.mybutton:hover{
+  background-color: rgb(105, 221, 177);
+  transition-duration: 1s;
+}
+
+.navbutton{
+  color: white;
+  padding: 11px 25px 11px 25px;
+  display: inline-block;
+  margin: 0px 4px 0px 0px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.26);
+  border-style: solid;  
+  border-width: 1px;
+  border-color: white;
+  /* border: 1px solid white; just incase i dont want to waste my time */
+  position: relative;
+}
+
+.tbox{
+  border: 1px solid white;
+  width: 47%;
+  padding: 50px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  
+}
+.testimonials{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.tbox :last-child{
+  font-size: 0.8rem;
+  padding-left: 30px;
+}
+.dropdown{
+  display: none;
+  position:absolute;
+  text-align: center;
+  padding-top: 20px;
+}
+.navbutton:hover .dropdown{
+  display: block;
+}
+
+.dropdown .navbutton{
+  width: 120px;
+  background-color: white;
+  color: #fa4083;
+}
+.dropdown .div{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.dropdown .navbutton:hover{
+  background-color: #f7b5b2;
+  transition-duration: 500ms;
+}
+
+.inputwrapper {
+  margin-bottom: 30px;
+}
+
+form{
+  margin: 40px 0px;
+}
+
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 0,85rem;
+}
+
+.name_label, .email_label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type=submit] {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 0px none;
+  color: #fa4083;
+  font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
+}
+
+input[type=submit]:hover {
+  background-color: #dfb3b1ea;
+  transition-duration: 500ms;
+}   
